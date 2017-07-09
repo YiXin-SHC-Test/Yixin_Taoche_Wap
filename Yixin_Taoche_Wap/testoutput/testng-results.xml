@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49206" started-at="2017-07-09T13:20:09Z" finished-at="2017-07-09T13:20:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49206" started-at="2017-07-09T13:20:09Z" finished-at="2017-07-09T13:20:58Z">
+      <class name="Taoche.Wap.TestScripts.SecllCarPage_Test">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Taoche.Wap.TestScripts.SecllCarPage_Test@4d0e7233]" name="beforeMethod" is-config="true" duration-ms="7720" started-at="2017-07-09T21:20:09Z" finished-at="2017-07-09T21:20:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MCreateCar()[pri:0, instance:Taoche.Wap.TestScripts.SecllCarPage_Test@4d0e7233]" name="MCreateCar" duration-ms="41080" started-at="2017-07-09T21:20:17Z" finished-at="2017-07-09T21:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MCreateCar -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Taoche.Wap.TestScripts.SecllCarPage_Test@4d0e7233]" name="afterMethod" is-config="true" duration-ms="394" started-at="2017-07-09T21:20:58Z" finished-at="2017-07-09T21:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Taoche.Wap.TestScripts.SecllCarPage_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

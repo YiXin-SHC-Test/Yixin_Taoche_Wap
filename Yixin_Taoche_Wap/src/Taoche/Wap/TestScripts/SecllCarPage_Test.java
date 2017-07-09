@@ -17,12 +17,12 @@ public class SecllCarPage_Test {
 	@Test
 	public void MCreateCar() throws Exception {
 		SellcarPage sellcarPage = new SellcarPage(driver);
-		//ÉÏ´«³µÁ¾ÕÕÆ¬
+		//ä¸Šä¼ è½¦è¾†ç…§ç‰‡
 		sellcarPage.UploadPicID1().click();
 		WaitUtil.sleep(2000);
-		Runtime.getRuntime().exec("D:\\×Ô¶¯»¯\\test.exe");
+		Runtime.getRuntime().exec("D:\\è‡ªåŠ¨åŒ–\\test.exe");
 		WaitUtil.sleep(2000);
-		//Ñ¡Ôñ³µĞÅÏ¢
+		//é€‰æ‹©è½¦ä¿¡æ¯
 		sellcarPage.CarName().click();
 		WaitUtil.sleep(2000);
 		sellcarPage.CarPinpai().click();
@@ -31,44 +31,46 @@ public class SecllCarPage_Test {
 		WaitUtil.sleep(2000);
 		sellcarPage.CarChexing().click();
 		WaitUtil.sleep(2000);
-		// ±à¼­ÉÏÅÆÊ±¼ä
+		// ç¼–è¾‘ä¸Šç‰Œæ—¶é—´
 		sellcarPage.LicenseTime().click();
 		WaitUtil.sleep(2000);
 		sellcarPage.Year().click();
 		WaitUtil.sleep(2000);
 		sellcarPage.Month().click();
 		WaitUtil.sleep(2000);
-		// ±à¼­ÉÏÅÆËùÔÚµØ
+		// ç¼–è¾‘ä¸Šç‰Œæ‰€åœ¨åœ°
 		sellcarPage.LicenseArea().click();
 		WaitUtil.sleep(2000);
 		sellcarPage.Province().click();
 		WaitUtil.sleep(2000);
 		sellcarPage.City().click();
 		WaitUtil.sleep(2000);
-		// ±íÏÔÀï³Ì
+		// è¡¨æ˜¾é‡Œç¨‹
 		sellcarPage.KM().sendKeys("1");
-		// Ñ¡Ôñ³µÑÕÉ«ĞÅÏ¢
+		// é€‰æ‹©è½¦é¢œè‰²ä¿¡æ¯
 		sellcarPage.Color().click();
 		WaitUtil.sleep(2000);
 		sellcarPage.CarColor().click();
 		WaitUtil.sleep(2000);
-		// Ô¤ÊÛ¼Û¸ñ
+		// é¢„å”®ä»·æ ¼
 		sellcarPage.Carmoney().sendKeys("1");
-		// ÌîĞ´ÓÃ»§ĞÕÃû
-		sellcarPage.Username().sendKeys("²âÊÔ");
+		// å¡«å†™ç”¨æˆ·å§“å
+		sellcarPage.Username().sendKeys("æµ‹è¯•");
 		WaitUtil.sleep(2000);
-		// ÌîĞ´ÓÃ»§ÊÖ»úºÅ
+		// å¡«å†™ç”¨æˆ·æ‰‹æœºå·
 		sellcarPage.UserMobile().sendKeys("13333333333");
-		// Ñ¡ÔñÓÃ»§ËùÔÚ³ÇÊĞ
+		// é€‰æ‹©ç”¨æˆ·æ‰€åœ¨åŸå¸‚
 		sellcarPage.CarArea().click();
+		WaitUtil.sleep(2000);
 		sellcarPage.CarAreaProvince().click();
+		WaitUtil.sleep(2000);
 		sellcarPage.CarAreaCity().click();
 		WaitUtil.sleep(2000);
 		sellcarPage.DayForm().click();
-		// Ìá½»
+		// æäº¤
 		sellcarPage.SetButton().click();
-		// ¶ÏÑÔÊÇ·ñ³É¹¦
-		Assert.assertTrue(driver.getPageSource().contains("·¢²¼³É¹¦"));
+		// æ–­è¨€æ˜¯å¦æˆåŠŸ
+		Assert.assertTrue(driver.getPageSource().contains("å‘å¸ƒæˆåŠŸ"));
 		WaitUtil.sleep(3000);
 	}
 

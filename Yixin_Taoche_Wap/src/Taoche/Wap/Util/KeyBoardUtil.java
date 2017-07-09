@@ -15,9 +15,9 @@ public class KeyBoardUtil {
 		} catch (AWTException e) {
 			e.printStackTrace();
 		}
-		// 调用keyPress方法来实现按下Tab�?
+		// 调用keyPress方法来实现按下Tab键
 		robot.keyPress(KeyEvent.VK_TAB);
-		// 调用keyRelease方法来实现释放Tab�?
+		// 调用keyRelease方法来实现释放Tab�?
 		robot.keyRelease(KeyEvent.VK_TAB);
 	}
 
@@ -29,14 +29,14 @@ public class KeyBoardUtil {
 		} catch (AWTException e) {
 			e.printStackTrace();
 		}
-		// 调用keyPress方法来实现按下Tab�?
+		// 调用keyPress方法来实现按下Tab键
 		robot.keyPress(KeyEvent.VK_ENTER);
-		// 调用keyRelease方法来实现释放Tab�?
+		// 调用keyRelease方法来实现释放Tab�?
 		robot.keyRelease(KeyEvent.VK_ENTER);
 	}
 
 	/*
-	 * 将指定字符串设为剪切板的内容，然后执行粘贴操�? 将页面焦点切换到输入框后，调用此函数可以将指定字符串粘贴到输入框�?
+	 * 将指定字符串设为剪切板的内容，然后执行粘贴操�? 将页面焦点切换到输入框后，调用此函数可以将指定字符串粘贴到输入框�?
 	 */
 	public static void setAndctrlVClipboardData(String string) {
 		StringSelection stringSelection = new StringSelection(string);
@@ -48,7 +48,7 @@ public class KeyBoardUtil {
 		} catch (AWTException e) {
 			e.printStackTrace();
 		}
-		// 以下4行代码表示按下和释放Ctrl+V组合�?
+		// 以下4行代码表示按下和释放Ctrl+V组合�?
 		robot.keyPress(KeyEvent.VK_CONTROL);
 		robot.keyPress(KeyEvent.VK_C);
 		robot.keyRelease(KeyEvent.VK_C);

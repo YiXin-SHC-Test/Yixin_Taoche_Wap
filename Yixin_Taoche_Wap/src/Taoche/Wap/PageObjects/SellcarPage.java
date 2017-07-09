@@ -9,7 +9,7 @@ public class SellcarPage {
 	private WebElement element = null;
 	// 指定页面元素定位表达式配置文件的绝对文件路径
 	private ObjectMap objectMap = new ObjectMap(
-			"D:\\Eclipse\\AutoTest\\Surface\\Yixin_Taoche_Wap\\objectMap.properties");
+			"C:\\Users\\Maglweb\\git\\Yixin_Taoche_Wap\\Yixin_Taoche_Wap\\objectMap.properties");
 	private WebDriver driver;
 
 	public SellcarPage(WebDriver driver) {
