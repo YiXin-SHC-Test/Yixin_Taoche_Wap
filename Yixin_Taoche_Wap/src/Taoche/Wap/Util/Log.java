@@ -19,14 +19,19 @@ public class Log {
 	public static void info(String message) {
 		Log.info(message);
 	}
-	
-	//定义打印error级别日志的方式
-	public static void error(String message){
+
+	// 定义打印info级别日志的方式
+	public static void info(int ResponseCode) {
+		Log.info(ResponseCode);
+	}
+
+	// 定义打印error级别日志的方式
+	public static void error(String message) {
 		Log.error(message);
 	}
-	
-	//定义打印debug级别日志的方式
-	public static void debug(String message){
+
+	// 定义打印debug级别日志的方式
+	public static void debug(String message) {
 		Log.debug(message);
 	}
 }
